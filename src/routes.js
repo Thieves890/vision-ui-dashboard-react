@@ -8,22 +8,26 @@ import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
 
 import {
-  HomeIcon,
-  ShoppingBagIcon,
-  StarIcon,
-  GiftIcon,
-  ListBulletIcon,
-  Cog6ToothIcon,
-} from "@heroicons/react/24/solid";
+  IoHome,
+  IoBagHandle,
+  IoTrophy,
+  IoGift,
+  IoList,
+  IoSettings,
+  IoLogIn,
+  IoPersonAdd,
+} from "react-icons/io5";
 
-// Pages
-import AuthPage from "pages/AuthPage.jsx";
+// Page Components
 import HomePage from "pages/HomePage.jsx";
 import BelongingsPage from "pages/BelongingsPage.jsx";
 import MissionsPage from "pages/MissionsPage.jsx";
 import OffersPage from "pages/OffersPage.jsx";
 import RewardsPage from "pages/RewardsPage.jsx";
 import SettingsPage from "pages/SettingsPage.jsx";
+import AuthPage from "pages/AuthPage.jsx"; // Optional if you use only SignIn/SignUp
+import SignIn from "pages/SignIn.jsx";
+import SignUp from "pages/SignUp.jsx";
 
 const routes = [
   {
